@@ -3,8 +3,8 @@ Running the file will create plots automatically with available disk space and d
 2. Verify the installation by running <chia --version>
 3. Generate keys: 
     (a) <chia keys generate> will generate a new private key (24-word mnemonic seed); you should store this securely.
-    (b) <chia keys add> will prompt you to enter your key 
-    (c) <chia keys show> will display detailed public and private information on the keys
+    (b) <chia keys add> will prompt you to enter your key.
+    (c) <chia keys show> will display detailed public and private information on the keys.
 4. Start the Chia services using <chia start farmer>
 5. Check for available disk space and edit the PLOT_SIZE and MIN_FREE_SPACE variables to accomodate, if necessary. The minimum for MIN_FREE_SPACE is 20 x ...
 6. Run the manage_plots.py script
